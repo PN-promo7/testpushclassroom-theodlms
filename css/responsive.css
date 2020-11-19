@@ -1,0 +1,41 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  h1{
+    font-size: 1.8rem;
+  }
+
+  p, li{
+    font-size: 0.7rem;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .dp_column{
+    flex-direction: column;
+  }
+  .top_nav div{
+    flex-direction: column;
+  }
+  .mask_smart{
+    display: none;
+  }
+  .bg_header{
+    float: none;
+  }
+  .btn_header{
+    margin: 40px 30px;
+  }
+  .product{
+    text-align: center;
+  }
+  .art_news{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .img_art_phare{
+    width: 100%;
+  }
+}
